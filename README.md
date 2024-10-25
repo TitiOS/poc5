@@ -130,14 +130,14 @@ Diferenças principais:
 
 * CSS Global:
 
-** Afeta toda a aplicação
-** Importado no layout.js
-** Bom para estilos base e variáveis
+* Afeta toda a aplicação
+* Importado no layout.js
+* Bom para estilos base e variáveis
 
 
 * CSS Modules:
 
-** Escopo limitado ao componente
-** Evita conflitos de nomes
-** Gera nomes de classes únicos
-** Melhor para componentes reutilizáveis
+* Escopo limitado ao componente
+* Evita conflitos de nomes
+* Gera nomes de classes únicos
+* Melhor para componentes reutilizáveis
