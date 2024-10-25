@@ -18,3 +18,34 @@ Explicação da estrutura:
 * ``page.js``: Define as páginas da aplicação
 * ``layout.js``: Define o layout compartilhado entre páginas
 * `components`: Organiza componentes reutilizáveis
+
+# Criação de componentes simples (sem estado):
+
+Exemplo de um componente sem estado (stateless):
+
+``` jsx
+// src/components/Button/Button.js
+export default function Button({ text, onClick }) {
+  return (
+    <button className="button" onClick={onClick}>
+      {text}
+    </button>
+  )
+}
+
+// Uso do componente em uma página
+// src/app/page.js
+import Button from '@/components/Button/Button'
+
+export default function Home() {
+  return (
+    <div>
+      <h1>Página Inicial</h1>
+      <Button 
+        text="Clique aqui" 
+        onClick={() => alert('Botão clicado!')} 
+      />
+    </div>
+  )
+}
+```
