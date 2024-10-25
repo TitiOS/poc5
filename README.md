@@ -1,6 +1,6 @@
 # Estrutura de Projeto NextJS 14+:
 
-''' txt
+``` txt
 poc5
 src/                     # Diretório principal do código fonte
   ├── app/              # Diretório do App Router (Next.js 14+)
@@ -11,4 +11,4 @@ src/                     # Diretório principal do código fonte
       └── Button/       # Exemplo de um componente
           ├── Button.js
           └── Button.module.css
-'''
+```
