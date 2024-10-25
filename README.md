@@ -1,6 +1,6 @@
 # Estrutura de Projeto NextJS 14+:
 
-''' plaintext
+''' txt
 poc5
 src/                     # Diretório principal do código fonte
   ├── app/              # Diretório do App Router (Next.js 14+)
