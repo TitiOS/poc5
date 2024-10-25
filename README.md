@@ -128,14 +128,14 @@ export default function Button({ text }) {
 
 Diferenças principais:
 
-* CSS Global:
+### CSS Global:
 
 * Afeta toda a aplicação
 * Importado no layout.js
 * Bom para estilos base e variáveis
 
 
-* CSS Modules:
+### CSS Modules:
 
 * Escopo limitado ao componente
 * Evita conflitos de nomes
