@@ -49,3 +49,10 @@ export default function Home() {
   )
 }
 ```
+
+Características do componente sem estado:
+
+* É uma função pura que recebe props
+* Não usa hooks (useState, useEffect, etc.)
+* Sempre retorna o mesmo resultado para as mesmas props
+* Não mantém estado interno
