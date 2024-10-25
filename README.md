@@ -15,6 +15,6 @@ src/                     # Diretório principal do código fonte
 
 Explicação da estrutura:
 * src/app: No Next.js 14+, este diretório utiliza o App Router
-* page.js: Define as páginas da aplicação
-* layout.js: Define o layout compartilhado entre páginas
+* ``page.js``: Define as páginas da aplicação
+* ``layout.js``: Define o layout compartilhado entre páginas
 * `components`: Organiza componentes reutilizáveis
