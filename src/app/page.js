@@ -1,5 +1,5 @@
 import Card from './components/Card/Card'
-
+import Button from './components/Button/button'
 export default function Home() {
   return (
     <div>
@@ -13,6 +13,9 @@ export default function Home() {
       <Card 
         title="Estrutura do Projeto"
         content="Usando uma estrutura organizada com componentes reutilizáveis e CSS Modules."
+      />
+      <Button 
+        text="Clique aqui" 
       />
     </div>
   )
