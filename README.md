@@ -142,6 +142,11 @@ export default function Button({ text }) {
 * Gera nomes de classes únicos
 * Melhor para componentes reutilizáveis
 
+### Resultado:
+
+![image](https://github.com/user-attachments/assets/8b4742b0-7355-413a-a4ed-70d8644b4468)
+
+
 ### Integrantes:
 * Thiago de Oliveira Silva - RA: 10427342
 * Lucas Giovanneti Motta Horn - RA: 10374691
