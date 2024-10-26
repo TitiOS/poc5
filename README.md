@@ -1,4 +1,4 @@
-# Estrutura de Projeto NextJS 14+:
+## Estrutura de Projeto NextJS 14+:
 
 ``` txt
 poc5
@@ -19,7 +19,7 @@ Explicação da estrutura:
 * ``layout.js``: Define o layout compartilhado entre páginas
 * `components`: Organiza componentes reutilizáveis
 
-# Criação de componentes simples (sem estado):
+## Criação de componentes simples (sem estado):
 
 Exemplo de um componente sem estado (stateless):
 
@@ -50,16 +50,16 @@ export default function Home() {
 }
 ```
 
-Características do componente sem estado:
+**Características do componente sem estado:**
 
 * É uma função pura que recebe props
 * Não usa hooks (useState, useEffect, etc.)
 * Sempre retorna o mesmo resultado para as mesmas props
 * Não mantém estado interno
 
-# Estilo CSS (global e módulo):
+## Estilo CSS (global e módulo):
 
-## a)CSS Global (src/app/globals.css):
+### a)CSS Global (src/app/globals.css):
 
 ``` css
 /* Estilos que se aplicam a toda aplicação */
@@ -80,7 +80,7 @@ body {
 }
 ```
 
-Como usar CSS Global:
+**Como usar CSS Global:**
 
 ``` jsx
 // src/app/layout.js
@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
   )
 }
 ```
-## b) CSS Modules (src/components/Button/Button.module.css):
+### b) CSS Modules (src/components/Button/Button.module.css):
 
 ``` css
 /* Estilos específicos do componente */
@@ -111,7 +111,7 @@ export default function RootLayout({ children }) {
 }
 ```
 
-Como usar CSS Modules:
+**Como usar CSS Modules:**
 
 ``` jsx
 // src/components/Button/Button.js
@@ -126,18 +126,23 @@ export default function Button({ text }) {
 }
 ```
 
-Diferenças principais:
+**Diferenças principais:**
 
-### CSS Global:
+#### CSS Global:
 
 * Afeta toda a aplicação
 * Importado no layout.js
 * Bom para estilos base e variáveis
 
 
-### CSS Modules:
+#### CSS Modules:
 
 * Escopo limitado ao componente
 * Evita conflitos de nomes
 * Gera nomes de classes únicos
 * Melhor para componentes reutilizáveis
+
+### Integrantes:
+* Thiago de Oliveira Silva - RA: 10427342
+* Lucas Giovanneti Motta Horn - RA: 10374691
+* Erik Yutaka Takara - RA: 10427684
