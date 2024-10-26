@@ -1,3 +1,5 @@
+'use client'
+
 import Card from './components/Card/Card'
 import Button from './components/Button/Button'
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
       />
       <Button 
         text="Clique aqui"
+        onClick={() => alert('Botão clicado!')}
       />
     </div>
   )
