@@ -30,20 +30,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/* Estilos que se aplicam a toda aplicação */
-:root {
-  --primary-color: #0070f3;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-/* Estes estilos estarão disponíveis em toda a aplicação */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}

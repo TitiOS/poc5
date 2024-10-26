@@ -1,5 +1,5 @@
 import Card from './components/Card/Card'
-import Button from './components/Button/button'
+import Button from './components/Button/Button'
 export default function Home() {
   return (
     <div>
@@ -15,7 +15,7 @@ export default function Home() {
         content="Usando uma estrutura organizada com componentes reutilizáveis e CSS Modules."
       />
       <Button 
-        text="Clique aqui" 
+        text="Clique aqui"
       />
     </div>
   )
